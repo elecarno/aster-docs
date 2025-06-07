@@ -4,10 +4,5 @@ theme: just-the-docs
 
 color_scheme: aster
 
-aux_links:
-  Aster Web: https://github.com/Jachdich/aster-web
-  Aster CLI: https://github.com/Jachdich/aster-cli
-  Aster.py: https://cospox.com/docs/asterpy/
-
 logo:  "/assets/images/aster_logo_docs2.svg"
 favicon_ico: "/assets/images/aster_logo.svg"
