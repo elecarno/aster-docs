@@ -1,0 +1,61 @@
+@import "./color_schemes/dark";
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Red+Hat+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+
+$aster-accent: #be8fd0;
+$body-font-family: "Atkinson Hyperlegible", sans-serif;
+$mono-font-family: "Red Hat Mono", monospace;
+
+$white: #fff;
+$grey-dk-000: #d3d3d3;
+$grey-dk-100: #272e39;
+$grey-dk-200: #3c424f;
+$grey-dk-250: #3c424f;
+$grey-dk-300: #31363F;
+$grey-lt-000: #d3d3d3;
+$grey-lt-100: #d3d3d3;
+$grey-lt-200: #d3d3d3;
+$grey-lt-300: #d3d3d3;
+
+$color-scheme: dark;
+$body-background-color: $grey-dk-300;
+$body-heading-color: $grey-lt-000;
+$body-text-color: $grey-lt-300;
+$link-color: $blue-000;
+$nav-child-link-color: $grey-dk-000;
+$sidebar-color: $grey-dk-300;
+$base-button-color: $grey-dk-250;
+$btn-primary-color: $blue-200;
+$code-background-color: #31343f; // OneDarkJekyll default for syntax-one-dark-vivid
+$code-linenumber-color: #dee2f7; // OneDarkJekyll .nf for syntax-one-dark-vivid
+$feedback-color: darken($sidebar-color, 3%);
+$table-background-color: $grey-dk-250;
+$search-background-color: $grey-dk-250;
+$search-result-preview-color: $grey-dk-000;
+$border-color: $grey-dk-200;
+
+a {
+    color: $aster-accent !important;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.con-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    column-gap: 8px;
+}
+
+h1 {
+    font-weight: 600 !important;
+}
+
+pre,
+code,
+.highlight {
+    background-color: #272e39 !important;
+    line-height: normal;
+}
