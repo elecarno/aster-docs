@@ -64,7 +64,7 @@ Let's say however that we want to keep the border radius on the Login Page butto
 
 Save the file and open the [Aster Web] client. You can now import the file and the styles inside will be applied to the app.
 
-In order to create more complex themes with lots of styles, you can use the [CSS Reference](./css-reference/) which contains a list of all of the default CSS indentifiers and variables used within [Aster Web].
+In order to create more complex themes with lots of styles, you can use the [CSS Reference](./css-reference/) which contains a list of all of the default CSS indentifiers and variables used within [Aster Web]. See [Default Themes](./default-themes/) for more complete examples of themes.
 
 ---
 [Aster Web]: ../index
