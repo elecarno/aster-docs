@@ -3,9 +3,10 @@ title: Components
 layout: default
 has_toc: false
 parent: Aster Web
+nav_order: 1
 ---
 
-# Components
+# Components in Aster Web
 Aster Web is built using [Svelte](https://svelte.dev/) and as such it is comprised of components which are written in `.svelte` files. Below is the hierarchy of all of the Svelte components in Aster Web.
 
 ```
