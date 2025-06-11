@@ -16,7 +16,12 @@ parent: Components
     max-width: 60%;
     width: min-content;
     
+    margin-top: var(--margin-2);
+
+    border-radius: var(--radius-3);
+
     object-fit: contain;
+    cursor: pointer;
 }
 
 .con-message {

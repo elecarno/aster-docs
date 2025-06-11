@@ -22,7 +22,9 @@ App
  │   └─ PanelServerView
  │       ├─ DialogServerProfile
  │       ├─ DialogKeybinds
+ │       ├─ DialogMemberList
  │       ├─ ServerMessage
+ │       ├─ DialogImage
  │       └─ PanelChannelList
  │          └─ ChannelListButton
  ├─ DialogChangelog
@@ -66,7 +68,9 @@ Below is an overview of all of the components and their functions:
 [DialogAccount]: ./dialogaccount
 [DialogAddServer]: ./dialogaddserver
 [DialogChangelog]: ./dialogchangelog
+[DialogImage]: ./dialogimage
 [DialogKeybinds]: ./dialogkeybinds
+[DialogMemberList]: ./dialogmemberlist
 [DialogServerProfile]: ./dialogserverprofile
 [DialogTheme]: ./dialogtheme
 [ServerListButton]: ./serverlistbutton

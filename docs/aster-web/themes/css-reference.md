@@ -177,13 +177,29 @@ An outline of the heirarchy of CSS styles used in [Aster Web]. The outline is ba
 ### [DialogChangelog]
 ```
 #pan-dialog-changelog
-.con-changelog-scrollbox
+    .con-changelog-scrollbox
+```
+
+### [DialogImage]
+```
+#pan-dialog-image
+    .con-image-img
+        .gra-image-img
 ```
 
 ### [DialogKeybinds]
 ```
 #pan-dialog-keybinds
 .lab-keybind
+```
+
+### [DialogMemberList]
+```
+#pan-dialog-memberlist
+    .con-memberlist-scrollbox
+        .con-memberlist-member
+            .gra-memberlist-pfp
+            .lab-memberlist-displayname
 ```
 
 ### [DialogServerProfile]
@@ -233,21 +249,23 @@ An outline of the heirarchy of CSS styles used in [Aster Web]. The outline is ba
 [Aster Web]: ../index
 [Component]: ../components/
 
-[App]: ../components/app
-[ContextMenu]: ../components/contextmenu
-[PageLogin]: ../components/pagelogin
-[PageLoading]: ../components/pageloading
-[PageMain]: ../components/pagemain
-[PanelServerList]: ../components/panelserverlist
-[PanelServerView]: ../components/panelserverview
-[PanelChannelList]: ../components/panelchannellist
-[Dialog]: ../components/dialog
-[DialogAccount]: ../components/dialogaccount
-[DialogAddServer]: ../components/dialogaddserver
-[DialogChangelog]: ../components/dialogchangelog
-[DialogKeybinds]: ../components/dialogkeybinds
-[DialogServerProfile]: ../components/dialogserverprofile
-[DialogTheme]: ../components/dialogtheme
-[ServerListButton]: ../components/serverlistbutton
-[ServerMessage]: ../components/servermessage
-[ChannelListButton]: ../components/channellistbutton
+[App]: ./app
+[ContextMenu]: ./contextmenu
+[PageLogin]: ./pagelogin
+[PageLoading]: ./pageloading
+[PageMain]: ./pagemain
+[PanelServerList]: ./panelserverlist
+[PanelServerView]: ./panelserverview
+[PanelChannelList]: ./panelchannellist
+[Dialog]: ./dialog
+[DialogAccount]: ./dialogaccount
+[DialogAddServer]: ./dialogaddserver
+[DialogChangelog]: ./dialogchangelog
+[DialogImage]: ./dialogimage
+[DialogKeybinds]: ./dialogkeybinds
+[DialogMemberList]: ./dialogmemberlist
+[DialogServerProfile]: ./dialogserverprofile
+[DialogTheme]: ./dialogtheme
+[ServerListButton]: ./serverlistbutton
+[ServerMessage]: ./servermessage
+[ChannelListButton]: ./channellistbutton

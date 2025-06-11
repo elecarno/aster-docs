@@ -27,7 +27,7 @@ parent: Components
 
     display: flex;
     flex-direction: column-reverse;
-
+;
     margin-left: 10px;
     margin-right: 10px;
 
@@ -129,26 +129,22 @@ parent: Components
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
+    align-items: center;
+
+    margin-bottom: 14px;
+
+    row-gap: 6px;
 }
 .lab-server-ip {
-    margin-bottom: 15px;
+    margin-bottom: 6px;
     margin-left: auto;
     margin-right: auto;
 }
-.lab-server-info {
-    margin: 0;
-    margin-left: 10%;
-    
-    font-size: 13px;
-}
 
-.btn-server-profile {
+.btn-server-info {
     width: 80%;
     
     margin: 0 auto;
-    margin-top: 10px;
-    margin-bottom: 14px;
     
     padding: 5px;
     

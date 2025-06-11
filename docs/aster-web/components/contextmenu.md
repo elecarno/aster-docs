@@ -9,6 +9,8 @@ parent: Components
 * {
     margin: 0;
     padding: 0;
+
+    font-size: 13px;
 }
 
 .pan-conmenu {

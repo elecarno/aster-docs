@@ -13,16 +13,20 @@ parent: Components
 
 @media (width >= 1024px) {
     .btn-server {
-        width: calc(100% - 20px);
+        width: calc(100% - 10px);
         
-        margin: 10px;
+        margin: 6px;
+        margin-left: 0px;
         
         padding: 10px;
         padding-left: 13px;
         
         background-color: var(--panel-2);
         
-        border-radius: var(--radius-2);
+        border-top-right-radius: var(--radius-2);
+        border-bottom-right-radius: var(--radius-2);
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
         
         box-sizing: border-box;
     }

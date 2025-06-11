@@ -28,7 +28,7 @@ parent: Components
         justify-content: center;
 
         margin-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .btn-addserver,
@@ -52,7 +52,7 @@ parent: Components
         justify-content: center;
 
         margin-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 16px;
     }
 
     .btn-addserver,
@@ -104,6 +104,22 @@ parent: Components
 
 #gra-main-logo path{
     transition: stroke 0.4s ease;
+}
+
+.con-main-bg-logo {Add commentMore actions
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#gra-main-bg-logo {
+    height: 40%;
+    width: 40%;
+
+    margin-bottom: 5%;
 }
 
 .btn-addserver:hover,

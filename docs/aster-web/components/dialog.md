@@ -40,11 +40,13 @@ parent: Components
     background-color: var(--panel-2);
     
     border-bottom: 3px solid var(--panel-3);
-    border-radius: var(--radius-3);
+    border-radius: var(--radius-3);;
 }
 
 .con-dialog-content {
+    max-height: 80vh;
     width: 100%;
+    overflow-y: auto;
     
     display: flex;
     flex-direction: column;
