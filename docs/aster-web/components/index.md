@@ -47,7 +47,9 @@ Below is an overview of all of the components and their functions:
 - [DialogAccount] - Account settings dialog.
 - [DialogAddServer] - Add new server dialog.
 - [DialogChangelog] - Changelog / patch notes dialog.
+- [DialogImage] - Large display for images send in servers.
 - [DialogKeybinds] - Help menu / keybinds dialog.
+- [DialogMemberList] - List of members in a server.
 - [DialogServerProfile] - Server specific profile settings dialog.
 - [DialogTheme] - Aster Web theme settings dialog.
 - [ServerListButton] - Server button
